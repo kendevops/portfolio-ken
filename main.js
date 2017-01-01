@@ -17,4 +17,9 @@ $(document).ready(function() {
       2000
     );
   });
+
+  $(".menu-toggler").on("click", function() {
+    $(this).toggleClass("open");
+    $(".top-nav").toggleClass("open");
+  });
 });
