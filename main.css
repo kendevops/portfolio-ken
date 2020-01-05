@@ -129,6 +129,10 @@ li {
 .open .bar.end {
   transform: rotate(-450deg) translateX(-0.8rem);
 }
+
+.landing-text {
+  
+}
 /*End header*/
 
 /*Start about*/
