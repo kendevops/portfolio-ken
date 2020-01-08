@@ -22,6 +22,10 @@ body {
   background-size: cover;
 }
 
+section {
+  padding: 6rem;
+}
+
 a {
   text-decoration: none;
   color: #eee;
@@ -48,7 +52,7 @@ img {
 
 .section-heading {
   text-align: center;
-  margin-top: 10rem;
+  margin-bottom: 10rem;
 }
 
 .section-heading h1 {
@@ -326,11 +330,30 @@ li {
   flex: 1;
 }
 
+.portfolio-description h1 {
+  font-size: 3rem;
+  font-weight: 300;
+  margin: 1rem 0;
+}
+
 .portfolio-description h6 {
   font-size: 1.5rem;
   text-transform: uppercase;
   font-weight: 300;
   opacity: 0.5;
+}
+
+.portfolio-description .cta {
+  display: inline-block;
+  margin-top: 2.5rem;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  color: #3883ff;
+  transition: color 650ms;
+}
+
+.portfolio-description .cta:hover {
+  color: #2f67cd;
 }
 /*End portfolio*/
 
