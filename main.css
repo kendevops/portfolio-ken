@@ -87,6 +87,7 @@ img {
   font-size: 1.5rem;
   font-weight: 300;
 }
+
 /*End reusable*/
 
 /*Start header*/
@@ -304,7 +305,31 @@ li {
 /*End services*/
 
 /*Start portfolio*/
-/*End services*/
+.portfolio-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5rem;
+}
+
+.portfolio-item:last-child {
+  margin-bottom: 0;
+}
+.portfolio-img {
+  flex: 1;
+}
+
+.portfolio-description {
+  flex: 1;
+}
+
+.portfolio-description h6 {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 300;
+  opacity: 0.5;
+}
+/*End portfolio*/
 
 /*Start timeline*/
 /*End timeline*/
