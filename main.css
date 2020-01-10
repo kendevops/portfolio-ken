@@ -369,6 +369,14 @@ li {
   text-align: left;
   width: 70%;
 }
+
+.timeline h1 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 300;
+  margin-bottom: 1rem;
+  opacity: 0.3;
+}
 /*End timeline*/
 
 /*Start contact*/
