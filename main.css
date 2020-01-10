@@ -377,6 +377,10 @@ li {
   margin-bottom: 1rem;
   opacity: 0.3;
 }
+
+.timeline .date {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
 /*End timeline*/
 
 /*Start contact*/
