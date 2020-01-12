@@ -449,12 +449,16 @@ input[type="submit"] {
   background-color: #fd57bf;
   color: #eee;
   padding: 1rem 2rem;
+  /* margin-left: 5.2rem; */
   border-radius: 0.8rem;
   cursor: pointer;
   transition: background-color 650ms;
 }
 
 input[type="submit"]:hover {
+  color: #221e3f;
+  background-color: #ffe838;
+}
 /*End contact*/
 
 /*Start footer*/
