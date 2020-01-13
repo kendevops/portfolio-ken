@@ -98,6 +98,16 @@ img {
 /*End reusable*/
 
 /*Start header*/
+#logo {
+  display: flex;
+  width: 15rem;
+  align-items: flex-start;
+  justify-content: start;
+  background-color: rgb(107, 66, 66);
+  border-radius: 100%;
+  margin: 1rem;
+}
+
 header {
   width: 100%;
   height: 100vh;
