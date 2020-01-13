@@ -23,7 +23,7 @@ body {
 }
 
 section {
-  padding: 6rem;
+  padding: 6rem 0;
 }
 
 a {
@@ -422,7 +422,7 @@ li {
 
 /*Start contact*/
 .contact {
-  background-color: #221e3f;
+  background-color: #301a27;
 }
 
 form {
@@ -479,6 +479,7 @@ input[type="submit"]:hover {
   border-radius: 100%;
   display: flex;
   animation: pulse 2s infinite;
+  cursor: pointer;
 }
 
 .up i {
