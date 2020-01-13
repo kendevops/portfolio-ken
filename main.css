@@ -103,8 +103,9 @@ img {
   width: 15rem;
   align-items: flex-start;
   justify-content: start;
-  background-color: rgb(107, 66, 66);
+  background-color: rgb(133, 88, 103);
   border-radius: 100%;
+  padding: 0 1rem;
   margin: 1rem;
 }
 
@@ -518,4 +519,21 @@ input[type="submit"]:hover {
 /*End animations*/
 
 /*Start media queries*/
+@media screen and (max-width: 768px) {
+  body {
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0)),
+      url("images/environ3.jpg") no-repeat center fixed;
+    background-size: cover;
+  }
+  #logo {
+    display: none;
+  }
+  .landing-text h1 {
+    font-size: 15rem;
+  }
+
+  .landing-text h6 {
+    font-size: 1.5rem;
+  }
+}
 /*End media queries*/
