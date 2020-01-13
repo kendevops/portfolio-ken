@@ -533,7 +533,24 @@ input[type="submit"]:hover {
   }
 
   .landing-text h6 {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
+  }
+
+  .nav-list {
+    flex-direction: column;
+  }
+  li {
+    margin: 2rem 0;
+  }
+
+  .nav-link {
+    font-size: 4.5rem;
+  }
+  .about-heading {
+    font-size: 8rem;
+  }
+  .section-heading h1 {
+    font-size: 3rem;
   }
 }
 /*End media queries*/
