@@ -552,5 +552,39 @@ input[type="submit"]:hover {
   .section-heading h1 {
     font-size: 3rem;
   }
+
+  .about-details .nav-list {
+    flex-direction: initial;
+  }
+
+  .about-details li {
+    margin: 0 2rem;
+  }
+
+  .icon-container {
+    width: 7rem;
+    height: 7rem;
+  }
+
+  .icon-container i {
+    font-size: 4rem;
+  }
+
+  .timelinee ul {
+    margin: 0 0 0 auto;
+  }
+
+  .timeline .date::before {
+    left: -20rem;
+  }
+
+  .timeline .date::after {
+    left: -5.9rem;
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+  
 }
 /*End media queries*/
