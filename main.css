@@ -581,10 +581,27 @@ input[type="submit"]:hover {
   .timeline .date::after {
     left: -5.9rem;
   }
-
 }
 
 @media screen and (max-width: 600px) {
-  
+  .menu-toggler {
+    top: 2rem;
+    right: 2rem;
+  }
+
+  .landing-text h1 {
+    font-size: 8rem;
+  }
+
+  .landing-text h6 {
+    font-size: 1.4rem;
+  }
+  .nav-link {
+    font-size: 3.5rem;
+  }
+
+  .about .container {
+    flex-direction: column;
+  }
 }
 /*End media queries*/
