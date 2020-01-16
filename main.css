@@ -570,6 +570,18 @@ input[type="submit"]:hover {
     font-size: 4rem;
   }
 
+  .portfolio-img {
+    margin: 0 2rem;
+  }
+
+  .portfolio-description {
+    margin: 0 2rem;
+  }
+
+  .timeline {
+    margin: 0 0 0 15rem;
+  }
+
   .timelinee ul {
     margin: 0 0 0 auto;
   }
@@ -602,6 +614,45 @@ input[type="submit"]:hover {
 
   .about .container {
     flex-direction: column;
+  }
+
+  .profile-img {
+    margin: 0 0 7rem 0;
+  }
+
+  .portfolio-item {
+    flex-direction: column;
+  }
+
+  .portfolio-img {
+    margin: 0 2rem;
+    order: 1;
+  }
+
+  .portfolio-description {
+    margin: 0 2rem;
+    order: 2;
+  }
+
+  .timeline {
+    margin: 0 0 0 15rem;
+  }
+
+  .timeline p {
+    font-size: 1.6rem;
+  }
+
+  .timeline .date::before {
+    font-size: 1.4rem;
+  }
+
+  form {
+    width: 100%;
+    margin: 0 5rem 0 5rem;
+  }
+
+  .up {
+    right: 2rem;
   }
 }
 /*End media queries*/
