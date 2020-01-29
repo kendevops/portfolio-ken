@@ -485,6 +485,11 @@ li {
   color: blue;
 }
 
+.timeline2 .link:hover {
+  color: plum;
+  text-decoration: underline;
+}
+
 /* End Achievement */
 
 /*Start contact*/
