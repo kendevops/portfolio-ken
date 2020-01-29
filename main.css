@@ -431,6 +431,57 @@ li {
 
 /*End timeline*/
 
+/* Start Achievement */
+.timeline2 ul {
+  border-left: 4px solid #ffe828;
+  border-radius: 0.8rem;
+  background-color: rgba(0, 0, 0, 0.05);
+  margin: 0 auto;
+  position: relative;
+  padding: 5rem;
+  list-style: none;
+  text-align: left;
+  width: 70%;
+}
+
+.timeline2 h1 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 300;
+  margin-bottom: 1rem;
+  opacity: 0.3;
+}
+
+.timeline2 .date2 {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  position: relative;
+}
+
+.timeline2 .date2:last-of-type {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  border: none;
+}
+
+.timeline2 .date2::before,
+.timeline2 .date2::after {
+  position: absolute;
+  display: block;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.timeline2 .date2::before {
+  content: attr(data-date);
+  left: -21rem;
+  text-align: right;
+  min-width: 12rem;
+  font-size: 1.5rem;
+}
+/* End Achievement */
+
 /*Start contact*/
 .contact {
   background-color: #301a27;
