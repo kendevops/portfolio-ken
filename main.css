@@ -480,6 +480,11 @@ li {
   min-width: 12rem;
   font-size: 1.5rem;
 }
+
+.timeline2 .link {
+  color: blue;
+}
+
 /* End Achievement */
 
 /*Start contact*/
