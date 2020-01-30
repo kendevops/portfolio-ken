@@ -42,7 +42,7 @@ img {
 /*End global*/
 
 /*Start reusable*/
-.containet {
+.container {
   width: 90%;
   max-width: 120rem;
   height: 100%;
@@ -371,6 +371,7 @@ li {
 /*Start timeline*/
 .timeline ul {
   border-left: 4px solid #ffe828;
+  border-right: 4px solid #ffe828;
   border-radius: 0.8rem;
   background-color: rgba(0, 0, 0, 0.05);
   margin: 0 auto;
@@ -434,6 +435,7 @@ li {
 /* Start Achievement */
 .timeline2 ul {
   border-right: 4px solid #ffe828;
+  border-left: 4px solid #ffe828;
   border-radius: 0.8rem;
   background-color: rgba(0, 0, 0, 0.05);
   margin: 0 auto;
