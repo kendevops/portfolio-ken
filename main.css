@@ -655,7 +655,7 @@ input[type="submit"]:hover {
     margin: 0 0 0 15rem;
   }
 
-  .timelinee ul {
+  .timeline ul {
     margin: 0 0 0 auto;
   }
 
@@ -664,6 +664,22 @@ input[type="submit"]:hover {
   }
 
   .timeline .date::after {
+    left: -5.9rem;
+  }
+
+  .timeline2 {
+    margin: 0 15rem 0 0;
+  }
+
+  .timeline2 ul {
+    margin: 0 auto;
+  }
+
+  .timeline2 .date2::before {
+    left: -20rem;
+  }
+
+  .timeline2 .date2::after {
     left: -5.9rem;
   }
 }
@@ -711,6 +727,10 @@ input[type="submit"]:hover {
     margin: 0 0 0 15rem;
   }
 
+  .timeline ul {
+    border-right-style: hidden;
+  }
+
   .timeline p {
     font-size: 1.6rem;
   }
@@ -719,9 +739,26 @@ input[type="submit"]:hover {
     font-size: 1.4rem;
   }
 
+  .timeline2 {
+    margin: 0 0 0 15rem;
+  }
+
+  .timeline2 ul {
+    border-right-style: hidden;
+  }
+
+  .timeline2 p {
+    font-size: 1.6rem;
+  }
+
+  .timeline2 .date2::before {
+    font-size: 1.4rem;
+  }
+
   form {
-    width: 100%;
+    width: 70%;
     margin: 0 5rem 0 5rem;
+    background-size: cover;
   }
 
   .up {
