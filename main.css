@@ -592,6 +592,15 @@ input[type="submit"]:hover {
 /*End animations*/
 
 /*Start media queries*/
+@media screen and (max-width: 1330px) {
+  .timeline2 .date2::before {
+    left: -21rem;
+  }
+
+  .timeline2 .date2::after {
+    left: -8rem;
+  }
+}
 @media screen and (max-width: 768px) {
   body {
     background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0)),
@@ -668,11 +677,11 @@ input[type="submit"]:hover {
   }
 
   .timeline2 {
-    margin: 0 15rem 0 0;
+    margin: 0 0 0 15rem;
   }
 
   .timeline2 ul {
-    margin: 0 auto;
+    margin: 0 0 0 auto;
   }
 
   .timeline2 .date2::before {
