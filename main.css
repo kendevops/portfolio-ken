@@ -603,7 +603,7 @@ input[type="submit"]:hover {
 }
 @media screen and (max-width: 768px) {
   body {
-    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0)),
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0)),
       url("images/environ3.jpg") no-repeat center fixed;
     background-size: cover;
   }
