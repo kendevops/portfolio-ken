@@ -376,6 +376,8 @@ li {
 .more-project .more {
   display: inline-block;
   margin: 0 auto;
+  padding: 2rem;
+  border-radius: 10px;
   font-size: 2.5rem;
   text-transform: uppercase;
   color: #fd57bf;
@@ -383,7 +385,9 @@ li {
 }
 
 .more-project .more:hover {
-  color: #2f67cd;
+  color: #fff;
+  background-color: #2f67cd;
+  cursor: pointer;
 }
 /*End portfolio*/
 
