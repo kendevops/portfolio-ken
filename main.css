@@ -370,24 +370,27 @@ li {
 .more-project {
   display: flex;
   margin: 0 auto;
-  padding-top: 10rem;
+  padding-top: 6rem;
 }
 
 .more-project .more {
   display: inline-block;
   margin: 0 auto;
   padding: 2rem;
-  border-radius: 10px;
-  font-size: 2.5rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  border-radius: 30px;
+  font-size: 1.5rem;
   text-transform: uppercase;
-  color: #fd57bf;
+  color: #fff;
+  background-color: #2f67cd;
   transition: color 650ms;
 }
 
 .more-project .more:hover {
   color: #fff;
-  background-color: #2f67cd;
+  background-color: #660e46;
   cursor: pointer;
+  border-radius: 10%;
 }
 /*End portfolio*/
 
@@ -713,6 +716,10 @@ input[type="submit"]:hover {
 
   .timeline2 .date2::after {
     left: -5.9rem;
+  }
+
+  .more-project .more {
+    font-size: 1rem;
   }
 }
 
