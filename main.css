@@ -366,6 +366,25 @@ li {
 .portfolio-description .cta:hover {
   color: #2f67cd;
 }
+
+.more-project {
+  display: flex;
+  margin: 0 auto;
+  padding-top: 10rem;
+}
+
+.more-project .more {
+  display: inline-block;
+  margin: 0 auto;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  color: #fd57bf;
+  transition: color 650ms;
+}
+
+.more-project .more:hover {
+  color: #2f67cd;
+}
 /*End portfolio*/
 
 /*Start timeline*/
