@@ -629,9 +629,9 @@ input[type="submit"]:hover {
 }
 @media screen and (max-width: 768px) {
   body {
-    /* background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0)),
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0)),
       url("images/environ3.jpg") no-repeat center fixed;
-    background-size: cover; */
+    background-size: cover;
     background-color: lightcoral;
   }
   #logo {
@@ -808,9 +808,9 @@ input[type="submit"]:hover {
 
 @media screen and (max-width: 450px) {
   body {
-    /* background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0)),
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0)),
       url("images/autumn-forest.jpg") no-repeat center fixed;
-    background-size: cover; */
+    background-size: cover;
     background-color: lightcoral;
   }
 }
