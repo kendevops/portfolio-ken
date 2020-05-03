@@ -632,7 +632,7 @@ input[type="submit"]:hover {
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0)),
       url("images/environ3.jpg") no-repeat center fixed;
     background-size: cover;
-    background-color: lightcoral;
+    background-color: rgb(46, 23, 34);
   }
   #logo {
     display: none;
@@ -811,7 +811,7 @@ input[type="submit"]:hover {
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0)),
       url("images/autumn-forest.jpg") no-repeat center fixed;
     background-size: cover;
-    background-color: lightcoral;
+    background-color: rgb(46, 23, 34);
   }
 }
 /*End media queries*/
