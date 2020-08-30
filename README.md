@@ -1,6 +1,6 @@
 # portfolio-ken
 This is my Offical Portfolio website 
 
-You can see my portfolio [here](http://kendevops.tk)
+Click [here](http://kendevops.tk) to view my profile
 
 
